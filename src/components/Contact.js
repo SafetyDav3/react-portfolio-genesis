@@ -3,7 +3,17 @@ import React from "react";
 function Contact() {
   return (
     <div>
-      <h1>This is the contact page!</h1>
+      <h1>Contact</h1>
+      /* Enter name, email, and message. */
+      <form>
+        <label>Name:</label>
+        <input type="text" name="name" />
+        <label>Email:</label>
+        <input type="text" name="email" />
+        <label>Message:</label>
+        <textarea name="message" />
+        <input type="submit" value="Submit" />
+      </form>
     </div>
   );
 }

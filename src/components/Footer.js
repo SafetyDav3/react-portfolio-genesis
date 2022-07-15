@@ -1,11 +1,17 @@
 import React from "react";
+import { BsGithub, BsLinkedin, BsStackOverflow } from "react-icons/bs";
 
-function Footer() {
+const Footer = () => {
   return (
     <div>
-      <h1>This is the Footer page!</h1>
+      /* Icons for Github, LinkedIn, and stackoverflow */
+      <div className="footer-icons">
+        <BsGithub className="footer-icon" />
+        <BsLinkedin className="footer-icon" />
+        <BsStackOverflow className="footer-icon" />
+      </div>  
     </div>
   );
-}
+};
 
 export default Footer;
