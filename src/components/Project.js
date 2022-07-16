@@ -3,7 +3,6 @@ import React from "react";
 function Project() {
   return (
     <div>
-      /* Display a card for project. */
       <div className="card">
         <div className="card-body">
           <h5 className="card-title">Project Title</h5>

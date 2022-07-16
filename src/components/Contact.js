@@ -4,7 +4,6 @@ function Contact() {
   return (
     <div>
       <h1>Contact</h1>
-      /* Enter name, email, and message. */
       <form>
         <label>Name:</label>
         <input type="text" name="name" />

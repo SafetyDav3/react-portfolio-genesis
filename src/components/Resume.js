@@ -3,7 +3,6 @@ import React from "react";
 const Resume = () => {
   return (
     <div>
-      /* A list of credentials and experience */
       <h1>Resume</h1>
       <p>A short blurb about me.</p>
       <h2>Credentials</h2>
