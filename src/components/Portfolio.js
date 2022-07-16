@@ -1,24 +1,25 @@
 import React from "react";
 import Project from "./Project";
+import { Grid, Stack } from "@mantine/core";
 
 function Portfolio() {
   return (
-    <div>
-      <div className="container">
-        <div className="row">
-          <div className="col-md-4">
-            <Project />
-            <Project />
-            <Project />
-          </div>
-          <div className="col-md-4">
-            <Project />
-            <Project />
-            <Project />
-          </div>
-        </div>
-      </div>
-    </div>
+    <Grid justify="center">
+      <Grid.Col span={4}>
+        <Stack spacing="lg">
+          <Project />
+          <Project />
+          <Project />
+        </Stack>
+      </Grid.Col>
+      <Grid.Col span={4}>
+        <Stack spacing="lg">
+          <Project />
+          <Project />
+          <Project />
+        </Stack>
+      </Grid.Col>
+    </Grid>
   );
 }
 
