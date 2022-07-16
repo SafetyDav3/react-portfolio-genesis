@@ -1,11 +1,22 @@
 import React from "react";
-import Project from "./Project"
+import Project from "./Project";
 
 function Portfolio() {
   return (
     <div>
-      <h1>This is the Portfolio page!</h1>
-      <Project/>
+      /* Display project cards */
+      <div className="container">
+        <div className="row">
+          <div className="col-md-4">
+            <Project />
+            <Project />
+          </div>
+          <div className="col-md-4">
+            <Project />
+            <Project />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
