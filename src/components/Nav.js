@@ -16,7 +16,7 @@ import {
 
 function Nav() {
     return (
-      <Tabs>
+      <Tabs color="cyan">
         <Tabs.Tab label="About" icon={<BsInfoSquareFill size={14} />}>
           <About />
         </Tabs.Tab>
