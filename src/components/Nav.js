@@ -16,7 +16,7 @@ import {
 
 function Nav() {
     return (
-      <Tabs color="cyan">
+      <Tabs color="cyan" tabSize="lg"  position="right" tabPadding="xl" variant="outline">
         <Tabs.Tab label="About" icon={<BsInfoSquareFill size={14} />}>
           <About />
         </Tabs.Tab>
@@ -34,16 +34,6 @@ function Nav() {
         </Tabs.Tab>
       </Tabs>
     );
-  
-  
-  // return (
-  //   <div>
-  //       <a href="/About">About Me</a>
-  //       <a href="/Portfolio">Portfolio</a>
-  //       <a href="/Contact">Contact</a>
-  //       <a href="/Resume">Resume</a>
-  //   </div>
-  // );
 }
 
 export default Nav;
