@@ -45,7 +45,6 @@ const Resume = () => {
             </p>
           </li>
         </ul>
-        <a href="./contact">Contact</a>
       </div>
     </div>
   );

@@ -18,7 +18,7 @@ function Project() {
 
   return (
     <div style={{ width: 340, margin: "auto" }}>
-      <Card shadow="sm" p="lg">
+      <Card shadow="xl" p="lg">
         <Card.Section>
           <Image src="./evil-corp.jpg" height={160} alt="Norway" />
         </Card.Section>
